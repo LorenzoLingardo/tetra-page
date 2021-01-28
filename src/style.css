@@ -1,0 +1,67 @@
+h1,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 60px;
+}
+
+body {
+  margin-top: 0px;
+  padding: 0;
+  background: white;
+}
+
+.header {
+  background: #5b9bd5;
+  display: block;
+  width: 100%;
+  position: fixed;
+}
+
+.side-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  border-radius: 0px;
+  background: #262626;
+  bottom: -9.5%;
+  position: fixed;
+  height: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  padding: 2px 8px;
+  text-align: middle;
+}
+
+a:hover {
+  background: rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  color: white;
+  text-align: left;
+}
+
+h3:hover {
+  color: black;
+}
+
+select {
+  font-size: 15px;
+  border-radius: 10px;
+  border: solid;
+  background: #5b9bd5;
+  color: white;
+}
+
+b {
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 5%;
+  left: 85%;
+}
