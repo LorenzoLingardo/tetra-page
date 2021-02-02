@@ -23,7 +23,7 @@ body {
   background: #5b9bd5;
 }
 
-.side-bar {
+.side-bar-top {
   font-family: Lato;
   text-align: justify;
   background: #262626;
@@ -31,7 +31,14 @@ body {
   top: 15%;
   bottom: 0;
   left: 0;
-  right: 100;
+  right: 87%;
+}
+
+.side-bar-content {
+  font-family: Lato;
+  word-break: break-all;
+  text-align: middle;
+  padding-left: 10%;
 }
 
 a {
@@ -42,7 +49,7 @@ a {
   text-align: middle;
 }
 
-a:hover:not(.active) {
+a:hover {
   background-color: #555;
   color: #5b9bd5;
 }
